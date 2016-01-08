@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>A Pen by  Sam Beevors</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css'>
+
+        <style>
+      /* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
+      @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,100);
+html,
+body {
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 300;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  background-image: url("https://s3-eu-west-1.amazonaws.com/uploads-eu.hipchat.com/50418/2470618/6qNYnoiHsSpNbFZ/Revival%20Logo.png");
+  background-size: contain;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 1rem;
+}
+.header h1 {
+  padding: 1rem;
+  font-size: 10rem;
+  text-align: center;
+}
+
+.main--section {
+  border-radius: 5px;
+}
+.main--section .content {
+  display: inline-block;
+  width: 85%;
+  height: 100%;
+  padding: 0 10px 10px;
+}
+@media (max-width: 1100px) {
+  .main--section .content {
+    display: block;
+    width: 100%;
+  }
+}
+.main--section .content section {
+  margin: 0 auto 20px;
+  background: #F4ECF9;
+}
+.main--section .content section img {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+}
+.main--section .content section h1,
+.main--section .content section h2,
+.main--section .content section h3,
+.main--section .content section h4,
+.main--section .content section h5 {
+  padding: 5px;
+  margin: 0;
+}
+.main--section .content section h1 {
+  margin: 10px auto;
+  display: block;
+  width: 100%;
+  background: #A728FF;
+  padding: 10px;
+  color: white;
+  font-size: 2em;
+  font-weight: 100;
+  text-transform: capitalize;
+}
+.main--section .content section h2 {
+  font-size: 1.9em;
+}
+.main--section .content section h3 {
+  font-size: 1.8em;
+}
+.main--section .content section h4 {
+  font-size: 1.7em;
+}
+.main--section .content section h5 {
+  font-size: 1.6em;
+}
+.main--section .content section p {
+  font-size: 1.5rem;
+  padding: 5px 10px;
+}
+.main--section .content section p:last-child {
+  padding-bottom: 10px;
+}
+.main--section nav {
+  width: 15%;
+  height: 100%;
+  display: inline-block;
+  vertical-align: top;
+  padding: 10px;
+}
+@media (max-width: 1100px) {
+  .main--section nav {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+.main--section nav ul {
+  background: #A728FF;
+  margin: 0 auto;
+  padding: 0;
+  bullet-style: none;
+  display: block;
+  text-align: center;
+}
+.main--section nav li {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 10px 0;
+}
+@media (max-width: 1100px) {
+  .main--section nav li {
+    display: inline-block;
+    width: 20%;
+  }
+}
+@media (max-width: 600px) {
+  .main--section nav li {
+    display: inline-block;
+    width: 33.3333%;
+    background: #9341CC;
+  }
+}
+.main--section nav a {
+  font-size: 1.1em;
+  letter-spacing: 0.1em;
+  color: white;
+  width: 100%;
+  display: block;
+  padding: 5px;
+  font-weight: 200;
+}
+.main--section nav a:hover {
+  text-decoration: none;
+}
+.main--section nav .navigation li:nth-child(even) {
+  background-color: #9341CC;
+}
+.main--section nav .navigation li:hover {
+  background: #B852FF !important;
+}
+@media (max-width: 600px) {
+  .main--section nav .navigation li:first-child, .main--section nav .navigation li:nth-child(2) {
+    width: 50%;
+    background: #A728FF;
+  }
+}
+.main--section nav .social {
+  margin-top: 20px;
+  background: #F4ECF9;
+  border: 2px solid #A90AFF;
+  color: #54057F;
+  font-weight: 400;
+  border-radius: 5px 5px 0 0;
+}
+@media (max-width: 1100px) {
+  .main--section nav .social {
+    display: none;
+  }
+}
+.main--section nav .social li {
+  transition: .2s background ease-in-out;
+}
+.main--section nav .social li:first-child {
+  border-top: 1px solid #A90AFF;
+}
+.main--section nav .social .--fb:hover {
+  background: #38539E;
+}
+.main--section nav .social .--tw:hover {
+  background: #59A7DF;
+}
+.main--section nav .social .--ig:hover {
+  background: #A16E61;
+}
+.main--section nav .social .social_tagline {
+  padding: 5px;
+  text-align: center;
+  text-transform: capitalize;
+  margin: 0;
+}
+
+.animated {
+  opacity: 0;
+}
+
+    </style>
+
+    
+        <script src="js/prefixfree.min.js"></script>
+
+    
+  </head>
+
+  <body>
+
+    <div class="wrapper">
+  <div class="header">
+<!--     <h1>Website Title</h1>  -->
+  </div>
+  <section class="main--section">
+    <nav>
+      <ul class="navigation">
+        <li>
+          <a href="">Home</a>
+        </li><!--
+        --><li>
+          <a href="">About Us</a>
+        </li><!--
+        --><li>
+          <a href="">Events</a>
+        </li><!--
+        --><li>
+          <a href="">Shop</a>
+        </li><!--
+        --><li>
+          <a href="">Contact</a>
+        </li>
+      </ul>
+      <div class="social">
+        <p class="social_tagline">Keep Up-To-Date On Social Media!</p>
+        <ul>
+          <li class="social_button --fb">
+            <a href="">Facebook</a>
+          </li><!--
+          --><li class="social_button --tw">
+            <a href="">Twitter</a>
+          </li><!--
+          --><li class="social_button --ig">
+            <a href="">Instagram</a>
+          </li>
+        </ul>
+      </div>
+    </nav><!--
+    --><div class="content">
+      <section class="animated">
+        <h1>Section Header</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, numquam. Deserunt qui, eum facilis iure. Laborum, excepturi quibusdam illo voluptatem corrupti eum ducimus veniam, quis esse provident recusandae iusto possimus!</p>
+        <p>Illum sunt dolor mollitia optio quis alias quas reprehenderit, culpa maxime tenetur, nam! Dolorem minima modi maiores quasi nobis amet nulla eveniet harum beatae, tenetur unde, hic fugit vero et.</p>
+        <p>Officia tempora aperiam quasi enim sequi, repellat sit veritatis, asperiores aliquid maiores minima sunt, laboriosam! Tempore esse doloremque mollitia voluptas, expedita dolores saepe, a nisi voluptatibus ipsam earum error culpa!</p>
+      </section>
+      <section class="animated">
+        <h1>Section Header</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae ab deleniti odit impedit est maiores natus doloremque aperiam commodi, esse beatae ratione molestias adipisci eos ducimus, quidem sapiente ad at?</p>
+        <p>Totam dolor hic, vero minus numquam. Fuga, placeat? Quisquam culpa numquam repudiandae fuga perferendis, explicabo corporis possimus aliquid eius facere. Dicta quaerat aut doloremque laudantium minus neque quas ipsam, tempore.</p>
+        <img src="http://placehold.it/450x200/A90AFF/FFFFFF" />
+        <p>Qui nisi totam mollitia ea repudiandae minima nam sapiente officiis, impedit dignissimos tempore soluta debitis pariatur ipsa. Eos quos tempora libero placeat excepturi sed ea, voluptatibus aut velit suscipit eligendi.</p>
+      </section>
+      <section class="animated">
+        <h1>Section Header</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias et eum, quo omnis explicabo a eligendi animi dicta ipsum vel, molestias quae beatae laudantium minima, repudiandae quia? Hic, reiciendis, labore?</p>
+        <p>Porro quia dolorem impedit nam, delectus error soluta quae illo sunt, officiis, pariatur quaerat, nihil ad eius consectetur distinctio sed. Placeat quis minus accusamus libero eaque tenetur sapiente a, soluta?</p>
+        <p>Harum quo obcaecati, iure, libero necessitatibus ratione quos doloribus, incidunt quia sint earum magnam recusandae assumenda excepturi placeat voluptates debitis, totam ad eos laudantium modi dolore nesciunt neque. Facilis, ad.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo eius ab ea voluptatum eos, nostrum iure illum ex vero. Illum id quod maxime deleniti pariatur.</p>
+        <p>Cupiditate commodi, est culpa facilis dolorum aliquam totam maxime, quae quam perferendis ex. Dolores provident minima modi itaque iure necessitatibus optio illo architecto amet quasi!</p>
+      </section>
+    </div>
+  </section>
+</div>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>
