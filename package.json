@@ -12,9 +12,12 @@
   },
   "dependencies": {
     "auto-reload-brunch": ">= 1.0 < 1.9",
+    "autoprefixer-brunch": "^1.8.5",
     "clean-css-brunch": ">= 1.0 < 1.9",
     "css-brunch": ">= 1.0 < 1.9",
+    "install": "^0.4.1",
     "javascript-brunch": ">= 1.0 < 1.9",
+    "npm": "^3.5.3",
     "sass-brunch": "^1.9.2",
     "uglify-js-brunch": ">= 1.0 < 1.9"
   }

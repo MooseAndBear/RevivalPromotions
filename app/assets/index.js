@@ -1,10 +1,10 @@
 $(function() {
 
-  $(".animated").each(function(i) {
-    var $item = $(this);
-    setTimeout(function() {
-      $item.addClass("fadeInUp");
-    }, 500 * (i / 2));
-  });
+	$(".animated").each(function(i) {
+	  	var $item = $(this);
+	  	setTimeout(function() {
+	    	$item.addClass("fadeInUp");
+	  	}, 500 * (i / 2));
+	});
 
 });
