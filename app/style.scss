@@ -225,3 +225,10 @@ body {
 .animated {
   opacity: 0;
 }
+
+.social_button {
+  img {
+    max-width: 32px;
+    height: auto;
+  }
+}

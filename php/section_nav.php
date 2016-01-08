@@ -20,13 +20,13 @@
         <p class="social_tagline">Keep Up-To-Date On Social Media!</p>
         <ul>
           <li class="social_button --fb">
-            <a href="">Facebook</a>
+            <a href=""><img src="public/facebook-logo.png" /></a>
           </li><!--
           --><li class="social_button --tw">
-            <a href="">Twitter</a>
+            <a href=""><img src="public/twitter-logo.png" /></a>
           </li><!--
           --><li class="social_button --ig">
-            <a href="">Instagram</a>
+            <a href=""><img src="public/instagram-logo.png" /></a>
           </li>
         </ul>
       </div>
